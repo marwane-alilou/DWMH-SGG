@@ -1,0 +1,12 @@
+{
+  "dataset": "vidvrd",
+  "backbone": "vidvrd_ii",
+  "tau": 3,
+  "beta": 0.10,
+  "gamma": 0.50,
+  "delta_det": 0.40,
+  "delta_tag": 0.30,
+  "prediction_path": "outputs/vidvrd/baseline_relation_prediction.json",
+  "groundtruth_path": "data/vidvrd/annotations/test_gt.json",
+  "output_path": "outputs/vidvrd/dwmh_refined_prediction.json"
+}
