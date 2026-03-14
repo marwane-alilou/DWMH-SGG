@@ -1,7 +1,5 @@
 # DWMH-SGG: Directed Weighted Motif Hypergraphs with Spectral Propagation for Spatio-Temporal Scene Graph Generation
 
-[![Paper](https://img.shields.io/badge/Paper-Neurocomputing-blue)]()
-[![License](https://img.shields.io/badge/License-MIT-green)]()
 
 ## Overview
 DWMH-SGG is a post-hoc, training-free hypergraph refinement framework 
@@ -46,11 +44,4 @@ python dwmh_sgg/main.py \
 | delta_tag | 0.30 | Score blending weight for tagging |
 
 ## Citation
-@article{aliloua2025dwmhsgg,
-  title={DWMH-SGG: Directed Weighted Motif Hypergraphs with 
-         Spectral Propagation for Spatio-Temporal Scene Graph Generation},
-  author={Aliloua, Marouane and Bhuyan, Bikram Pratim and 
-          Fissounec, Rachida and Ramdane-Cherif, Amar},
-  journal={Neurocomputing},
-  year={2025}
-}
+
