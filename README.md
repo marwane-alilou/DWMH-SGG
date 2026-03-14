@@ -11,25 +11,7 @@ centrality, weights hyperedges by prediction confidence, captures
 inter-motif dependencies through a Jaccard co-occurrence tensor, and 
 refines relation confidence via closed-form spectral propagation.
 
-## Results
 
-### ImageNet-VidVRD (VidVRD-II backbone)
-| Method | mAP | R@50 | R@100 | P@1 | P@5 | P@10 |
-|--------|-----|------|-------|-----|-----|------|
-| VidVRD-II (baseline) | 22.94 | 9.95 | 10.69 | 70.50 | 52.90 | 40.60 |
-| DWMH-SGG (ours) | **23.42** | **9.95** | **10.73** | **71.50** | **53.30** | **40.60** |
-
-### VidOR (VidVRD-II backbone)
-| Method | mAP | R@50 | R@100 | P@1 | P@5 |
-|--------|-----|------|-------|-----|-----|
-| VidVRD-II (baseline) | X.XX | X.XX | X.XX | X.XX | X.XX |
-| DWMH-SGG (ours) | **X.XX** | **X.XX** | **X.XX** | **X.XX** | **X.XX** |
-
-### Action Genome (TRACE backbone)
-| Task | Metric | Baseline | DWMH-SGG |
-|------|--------|----------|----------|
-| PredCls | R@50 | X.XX | **X.XX** |
-| SGGen | R@50 | X.XX | **X.XX** |
 
 ## Installation
 pip install -r requirements.txt
