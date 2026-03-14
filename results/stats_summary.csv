@@ -1,0 +1,6 @@
+metric,baseline,dwmh_sgg,delta,n_diff,n_total,W_stat,p_value,ci_lo,ci_hi,significant
+mAP,22.94,23.42,+0.48,88,200,1514.0,0.0647,+0.097,+0.980,NO
+P@1,70.50,71.50,+1.00,2,200,,,,,INSUFFICIENT VARIANCE
+P@5,52.90,53.30,+0.40,6,200,,,,,INSUFFICIENT VARIANCE
+P@10,40.60,40.60,+0.00,8,200,,,,,INSUFFICIENT VARIANCE
+Recall@50,32.15,32.15,+0.00,2,200,,,,,INSUFFICIENT VARIANCE

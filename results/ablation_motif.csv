@@ -1,0 +1,9 @@
+config,description,mAP,R@50,R@100,P@1,P@5,P@10
+A,Baseline,22.94,9.95,10.69,70.50,52.90,40.60
+chain_only,Chain only,23.37,9.95,10.73,71.50,53.30,40.60
+triangle_only,Triangle only,23.40,9.91,10.71,71.50,53.30,40.60
+star_only,Star only,23.44,9.91,10.71,71.50,53.30,40.60
+chain_triangle,Chain + Triangle,23.37,9.95,10.73,71.50,53.30,40.60
+chain_star,Chain + Star,23.42,9.95,10.73,71.50,53.30,40.60
+triangle_star,Triangle + Star,23.44,9.91,10.71,71.50,53.30,40.60
+all,All three motifs,23.42,9.95,10.73,71.50,53.30,40.60
